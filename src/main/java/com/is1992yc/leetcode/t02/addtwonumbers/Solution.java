@@ -1,4 +1,4 @@
-package com.is1992yc.leetcode.addtwonumbers02;
+package com.is1992yc.leetcode.t02.addtwonumbers;
 
 /**
  *

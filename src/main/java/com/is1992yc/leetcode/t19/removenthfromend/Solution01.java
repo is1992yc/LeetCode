@@ -1,4 +1,4 @@
-package com.is1992yc.leetcode.removenthfromend19;
+package com.is1992yc.leetcode.t19.removenthfromend;
 
 /**
  *
