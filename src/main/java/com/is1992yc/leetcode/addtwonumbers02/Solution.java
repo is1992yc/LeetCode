@@ -29,14 +29,12 @@ public class Solution {
         ListNode root = new ListNode(0);
         ListNode cursor = root;
         int carry = 0;
-
         while (l1 != null || l2 != null || carry != 0){
             int l1val = l1 != null ? l1.val : 0;
             int l2val = l2 != null ? l2.val : 0;
             int sum = l1val + l2val + carry;
             carry = sum/10;
-            ListNode nextNode = new ListNode(sum%10);
-            cursor.next = nextNode;
+            cursor.next = new ListNode(sum%10);
             cursor = cursor.next;
             if (l1 != null){
                 l1 = l1.next;
@@ -56,6 +54,6 @@ public class Solution {
         ListNode(int x) {
             val = x;
         }
-     }
+    }
 
 }
